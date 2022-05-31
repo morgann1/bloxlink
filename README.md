@@ -37,7 +37,7 @@ const bloxlink = new BloxlinkAPI(configuration);
 
 The example above should log a response similar to the following:
 
-```json
+```js
 {
   success: true,
   user: { robloxId: '23587198', primaryAccount: '23587198' }
@@ -46,7 +46,7 @@ The example above should log a response similar to the following:
 
 A bad response should not include any information in the user object:
 
-```json
+```js
 {
   success: true,
   user: {}
