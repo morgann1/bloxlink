@@ -1,0 +1,17 @@
+{
+  "name": "@morgann1/bloxlink",
+  "version": "1.0.0",
+  "description": "Unofficial NPM package to interact with the Bloxlink API.",
+  "keywords": [
+    "roblox",
+    "bloxlink",
+    "bloxlink api"
+  ],
+  "main": "./index.js",
+  "repository": "https://github.com/morgann1/bloxlink",
+  "author": "morgann1",
+  "license": "MIT",
+  "dependencies": {
+    "undici": "^5.4.0"
+  }
+}
