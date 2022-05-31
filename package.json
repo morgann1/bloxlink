@@ -1,8 +1,8 @@
 {
   "name": "@morgann1/bloxlink",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Unofficial NPM package to interact with the Bloxlink API.",
-  "type": "module",
+  "type": "commonjs",
   "keywords": [
     "roblox",
     "bloxlink",
