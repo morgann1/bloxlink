@@ -30,8 +30,27 @@ const bloxlink = new BloxlinkAPI(configuration);
 
 ```js
 (async () => {
-    await bloxlink.search("DISCORD ID", "GUILD ID (OPTIONAL)");
+    const result = await bloxlink.search("DISCORD ID", "GUILD ID (OPTIONAL)");
+    console.log(result);
 })();
+```
+
+The example above should log a response similar to the following:
+
+```json
+{
+  success: true,
+  user: { robloxId: '23587198', primaryAccount: '23587198' }
+}
+```
+
+A bad response should not include any information in the user object:
+
+```json
+{
+  success: true,
+  user: {}
+}
 ```
 
 ## Reverse Searching (Roblox -> Discord)
