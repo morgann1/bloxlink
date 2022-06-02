@@ -53,6 +53,8 @@ A bad response should not include any information in the user object:
 }
 ```
 
+Alternatively, a bad response could also return a [429 Too Many Requests](https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429)
+
 ## Reverse Searching (Roblox -> Discord)
 
 ```
