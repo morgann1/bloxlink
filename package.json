@@ -1,6 +1,6 @@
 {
   "name": "@morgann1/bloxlink",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Unofficial NPM package to interact with the Bloxlink API.",
   "type": "commonjs",
   "keywords": [
@@ -13,6 +13,6 @@
   "author": "morgann1",
   "license": "MIT",
   "dependencies": {
-    "undici": "^5.4.0"
+    "undici": "^5.5.1"
   }
 }
